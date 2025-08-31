@@ -77,7 +77,7 @@ Follow these steps to run this project locally:
 
 ### ADMIN
 
--   **Email**: admin1@example.com
+-   **Email**: admin@example.com
 -   **Password**: password123
 
 ---
