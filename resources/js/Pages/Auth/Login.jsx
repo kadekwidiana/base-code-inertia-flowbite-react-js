@@ -1,8 +1,7 @@
-import React from "react";
-import { Button, Checkbox, Label, TextInput } from "flowbite-react";
-import { Head, Link } from "@inertiajs/react";
+import InputError from "@/Components/Error/InputError";
 import useLogin from "@/Features/Auth/useLogin";
-import InputError from "@/Components/InputError";
+import { Head, Link } from "@inertiajs/react";
+import { Button, Checkbox, Label, TextInput } from "flowbite-react";
 
 export default function Login() {
     const { data, setData, processing, errors, reset, handleSubmitLogin } =
